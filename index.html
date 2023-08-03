@@ -5,28 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!-- Latest compiled and minified CSS -->
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-
-    <!-- Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-    <!-- font awesome -->
-    <!-- linking css file -->
-    <link rel="stylesheet" href="s1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--Navigation bar-->
-    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top navbarScroll">
         <div class="container">
             <a class="navbar-brand" href="#">Portfolio</a>
@@ -38,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto text-counter">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="skills.html">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link" href="project.html">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -56,14 +45,12 @@
             </div>
         </div>
     </nav>
-    <!-- main banner -->
-    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
-    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Welcome to Portfolio</h2>
+                    <h2 class="hero_title">Welcome to my Portfolio</h2>
                     <p class="hero_desc">I am a Front-End Web Developer</p>
                 </div>
             </div>
@@ -72,60 +59,32 @@
     <!-- About section -->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="text-center"><br>About Me</h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="person.jpg" class="imageAboutPage" alt="">
+                    <img src="Images/girl.jpg" class="imageAboutPage" alt="">
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
-                        only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged
-
+                    <p> I'm a passionate front-end developer with a love for creating beautiful and responsive web applications. With a background in Computer Science, I have honed my skills in HTML, CSS, and JavaScript to craft engaging and responsive websites. My journey into web development began during my first year of college when I discovered the power of coding and its potential to transform ideas into reality. Since then, I have been constantly learning and staying up-to-date with the latest web technologies and trends to provide cutting-edge solutions to my clients. As a front-end developer, I thrive on collaborating with designers and back-end developers to bring seamless user experiences to life. I'm well-versed in various front-end frameworks and libraries, such as React, Angular, and Vue, which allow me to build dynamic and interactive web applications efficiently. Apart from coding, I also have a keen eye for design, which helps me in creating visually appealing layouts that prioritize both aesthetics and usability. I believe that great design and excellent functionality go hand-in-hand in delivering exceptional digital products.
                     </p>
                     <div class="row mt-3">
                         <div class="col-md-6">
-                            <ul>
-                                <li>Name: David Parker</li>
-                                <li>Age: 28</li>
+                            
+                            <!--<ul>
+                                <li>Name: Hafsa Shiak</li>
+                                <li>Technologies Working on: MERN Stack</li>
                                 <li>Occupation: Web Developer</li>
 
-                            </ul>
+                            </ul>-->
                         </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Name: David Parker</li>
-                                <li>Age: 28</li>
-                                <li>Occupation: Web Developer</li>
-
-                            </ul>
-                        </div>
+                        
                     </div>
-                    <div class="row mt-3">
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged.
-                        </p>
-                    </div>
+                    
                 </div>
             </div>
     </section>
     <!-- About Section Ends -->
-
-    <!-- Skills Section -->
-    <a class="skills" href="s1.html" id="skills"></a>
-    <!-- Skills Section Ends -->
-    
-    <!--Project Section-->
-    <a class="projects" href="ptr1.html" id="projects"></a>
-    <!--Project Section Ends-->
 
     <!-- contact section -->
     <section class="mt-0 mb-4" id="contact">
@@ -182,7 +141,7 @@
             </div>
         </div>
         <div class="para">
-            <p>Copyright © 2020 Hafsa. All rights reserved</p>
+            <p>Copyright © 2023 me. All rights reserved</p>
         </div>
     </footer>
     <!-- Footer Section Ends -->
@@ -190,6 +149,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
     
-    <a href="pr1.html">Projects</a>
 </body>
 </html>
