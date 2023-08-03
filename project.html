@@ -1,75 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="stylesheet" href="s1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <!-- portfolio section-->
 
-     <!--- PORTFOLIO SECTION PORTFOLIO SECTION PORTFOLIO SECTION --->
-    <div class="container-fluid pb-100">
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top navbarScroll">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="heading-section">
-                        <h2>Portfolio</h2>
-                        <div class="heading-borders">
-                            <span class="selected"></span>
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Apple has been the standard dummy text. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                        <img src="image1.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                        <img src="image2.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                        <img src="image3.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                        <img src="image4.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                        <img src="image5.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="project-section">
-                    <img src="image3.jpg">
-                </div>
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-counter">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+    
 
 
 
-    <!-- https://getbootstrap.com/docs/5.2/components/card/#about 
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
     <section id="projects">
         <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
+            <h1 class="text-center"><br>Projects</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="image1.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image1.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">YouTube Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">The platform typically includes features such as user profiles, video recommendations, search capabilities, and playlists on YouTube platform.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -79,10 +68,10 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card projectsContent">
-                        <img class="card-img-top" src="image2.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image2.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Quiz App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">A quiz app is a digital application designed to engage users with interactive quizzes and assess their knowledge on various topics.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -92,10 +81,10 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card projecstsContent">
-                        <img class="card-img-top" src="image3.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image3.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Product Landing Page</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">This page involves designing and developing a single web page dedicated to promoting and showcasing a specific product or service.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -107,10 +96,10 @@
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card projectsContent">
-                        <img class="card-img-top" src="image4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image4.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Messaging Service</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">The services involve the development and implementation of communication channels that enable the exchange of messages between users or systems.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -120,10 +109,10 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card projecstsContent">
-                        <img class="card-img-top" src="image5.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image5.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Twitter Clone</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">It involves building a web application that emulates the core features of Twitter, allowing users to post short messages (tweets), follow other users, like and retweet tweets, and engage in real-time discussions.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -133,10 +122,10 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card projecstContent">
-                        <img class="card-img-top" src="image4.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="images/image4.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Blog App</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">It is a web application that allows users to create, read, update, and delete blog posts. Users can register, log in, and access a personalized dashboard where they can manage their posts.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
@@ -144,7 +133,8 @@
                     </div>
                 </div>
             </div>
-    </section>-->
-    
+    </section>
+
 </body>
+
 </html>
