@@ -1,12 +1,13 @@
-/*
-/ hero background image /
-.bgimage {
+
+ /* hero background image  */
+ .bgimage {
     height:100vh;
-    background: url('laptop.jpg');
+    width: 100%;
+    background: url('Images/laptop.jpg');
     background-size:cover;
-    position: relative;
+    /* position: relative; */
 }
-/ text css above hero image/
+ /* text css above hero image */
 .hero_title {
     font-size: 10rem;
 }
@@ -21,11 +22,14 @@
     transform: translate(-50%, -50%);
     color: white;
 }
-/ about section image css /
+ /* about section image css  */
 .imageAboutPage {
     width: 100%;
 }
-*/
+.card-img-top{
+    width: 2rem;
+    height: 25rem;
+}
 
 /* Basic Properties */
 * {
@@ -36,7 +40,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('laptop.jpg');
+    background: url('Images/laptop.jpg');
     background-size:cover;
     position:relative;
 }
@@ -92,10 +96,10 @@
     margin: 25px 0px;
 }
 .left a {
-    background-color: crimson;
+    background-color: #484848;
     color: white;
     padding: 8px 16px;
-    border: 2px solid crimson;
+    border: 2px solid #484848;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -103,7 +107,7 @@
 }
 .left a:hover {
     background-color: transparent;
-    color: crimson;
+    color: #484848;
 }
 .right {
     flex: 1;
@@ -131,7 +135,7 @@
     content: '';
     position: absolute;
     height: 100%;
-    background-color: crimson;
+    background-color: #484848;
 }
 .right .html::before {
     width: 90%;
@@ -147,7 +151,6 @@
 }
 
 /* Project Section */
-/*********PORTFOLIO SECTION PORTFOLIO SECTION*********/
 .project-section {
 	text-align: center;
 	justify-content: center;
@@ -167,6 +170,7 @@
 	color: black;
 	font-size: 40px;
 	margin-bottom: 15px;
+	height: 50px;
 }
 .heading-section p {
 	font-size: 15px;
@@ -179,7 +183,7 @@
 	display: flex;
 }
 .heading-borders span {
-	border: 1px solid red;
+	border: 1px solid #484848;
 	width: 5%;
 	margin-bottom: 20px;
 }
@@ -249,7 +253,7 @@
 .contact-form button {
 	color: white;
 	border: none;
-	background: red;
+	background: #484848;
 	padding: 12px 30px;
 	font-size: 15px;
 	margin-bottom: 25px;
@@ -292,7 +296,7 @@
 	display: flex;
 }
 .heading-borders span {
-	border: 1px solid red;
+	border: 1px solid #484848;
 	width: 5%;
 	margin-bottom: 20px;
 }
